@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- my stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- cdn JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- monscript -->
+    <script src="js/script.js"></script>
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="text-center">
+        <button id="btnToDo" class="btn btn-dark m-3 ">Créer une To Do List</button>
+    </div>
+    <table id="tableToDo" class="table table-dark table-striped text-center">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Tâches</th>
+                <th scope="col">Etat</th>
+                <th scope="col">Supprimer</th>
+            </tr>
+        </thead>
+        <tbody id="tBodyToDo">
+            <!-- <tr>
+                <th id="iD" scope="row"></th>
+                <td id="taches"></td>
+                <td id="Etat"></td>
+                <td id="Supprimer"><button id="btnSupp" class="btn btn-light">Supprimer</button></td>
+            </tr> -->
+        </tbody>
+    </table>
+    <div class="text-center">
+        <button id="btnAjou" class="btn btn-dark m-3 ">Ajouter une tâche</button>
+    </div>
+    
+    <div id="essai"></div>
+    <div id="essai1"></div>
+
+</body>
+
+</html>

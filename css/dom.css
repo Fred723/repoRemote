@@ -1,0 +1,11 @@
+.red{
+    text-decoration: underline;
+    color: red;
+}
+.bgBlue{
+    background-color: blue;
+    color: white;
+}
+.bgViolet{
+    background-color: violet;
+}
